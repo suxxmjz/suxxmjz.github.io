@@ -38,7 +38,7 @@
 }
 
 .navbar {
-  color: #694c27;
+  color: #fffdfa;
   font-size: 18px;
   font-weight: bold;
   font-family: "Inter", sans-serif;
@@ -54,7 +54,7 @@
 }
 
 .nav-link {
-  color: #f3cb9d;
+  color: #f2e5ce;
   margin-right: 1rem;
   transition: color 0.2s ease-in-out;
   font-family: "Inter", sans-serif;
@@ -79,12 +79,21 @@
   }
 }
 body {
-  background: linear-gradient(to top, #45381d, #af7f41);
+  background: linear-gradient(to top, #420f0f, #ea2424);;
+  /*linear-gradient(to top, #420f0f, #ea2424); */
   background-size: cover;
   background-attachment: fixed;
+  
 }
 
 .container {
   margin: 30px;
   align-content: center;
 }
+
+/* @media (max-width: 768px) {
+  .image-container {
+    display: none;
+  
+  }
+} */
