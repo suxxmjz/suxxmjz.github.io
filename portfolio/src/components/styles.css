@@ -12,7 +12,7 @@
     }
 }
 .box {
-    border: 2px solid #f2e5ce;
+    border: 20px solid #f2ebe6;
     padding: 20px;
     text-align: center;
     width: 800px;
@@ -26,10 +26,24 @@
         line-height: 2;
 }
 a {
-    color: #f2e5ce;
+    color: #f2ebe6;
     text-decoration: none;
 }
 
 a:hover {
     color: rgb(0, 0, 0);
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    border-radius: 15%;
 }

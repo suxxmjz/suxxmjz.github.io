@@ -8,7 +8,7 @@ import Container from 'react-bootstrap/Container';
 
 function App() {
   return (
-    <div className="d-flex">
+    <div className="fixed">
       <Container className=" flex-grow-1">
         <Router>
           <Navbar bg="none" variant="dark">
