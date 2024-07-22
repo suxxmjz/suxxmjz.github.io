@@ -31,7 +31,7 @@ const Header = () => {
         <div>
             <div className="Header">
                 <h1>{ `I'm ${header.name}` }</h1>
-            <p className="line-1 anim-typewriter">and here's a glimpse of me! </p>
+            <p className="line-1 anim-typewriter">and here's me at a glance!</p>
             <label className="switch">
                 <input id="mode-switch" onClick={e => toggleDarkMode(e)} type="checkbox"/>
                 <span className="slider round"></span>
