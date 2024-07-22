@@ -1,0 +1,32 @@
+.Photo{
+    background-image: url('./profile.png');
+}
+
+.konalink{
+    background-image: url('./konaLink.png');
+    cursor: none;    
+}
+.vibefy{
+    background-image: url('./vibefy.png');
+    cursor: none;
+}
+.dihlab{
+    background-image: url('./dihlab.png');
+    cursor: none;
+}
+.eBeat{
+    background-image: url('./eBeat.png');
+    cursor: none;
+}
+.hh2023{
+    background-image: url('./hh2023.png');
+    cursor: none;
+}
+.hh2021{
+    background-image: url('./hh2021.jpg');
+    cursor: none;
+}
+.ecoplay{
+    background-image: url('./ecoplay.png');
+    cursor: none;
+}
