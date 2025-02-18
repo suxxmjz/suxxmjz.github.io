@@ -21,7 +21,7 @@ export default function Home() {
           software engineer
         </p>
         <p className="uppercase text-sm italic tracking-wide">
-          "Dream is not that which you see while sleeping, it is something that does not let you sleep."
+          &quot;Dream is not that which you see while sleeping, it is something that does not let you sleep.&quot;
         </p>
         <p className="text-xs text-right italic mt-2">- A.P.J. Abdul Kalam</p>
       </div>
