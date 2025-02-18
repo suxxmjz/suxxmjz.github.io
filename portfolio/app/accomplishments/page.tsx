@@ -15,7 +15,7 @@ export default function Accomplishments() {
       rank: "2nd Place",
       description: "Pitch competition - judged on innovative engineering product and analysis of market and competition. Designed an innovative long-term eyedropper.",
       image: '/images/droply.png',
-      link: '',
+      link: '#',
     },
     {
       title: "Hunter Hub Solutions Lab",
@@ -28,7 +28,7 @@ export default function Accomplishments() {
       title: "Hunter Hub Solutions Lab",
       rank: "3rd Place",
       description: "Pitch competition - designed an app that mobilizes community members to provide timely skill-matched assistance during natural disasters.",
-      image: '/images/ralli.jpg',
+      image: '/images/ralli.png',
       link: 'https://ucalgary.ca/news/emergicool-wins-first-place-experience-ventures-solutions-lab-finale',
     },
   ];
@@ -44,8 +44,8 @@ export default function Accomplishments() {
       <div className="relative">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {accomplishments.map((accomplishment, index) => (
-            <Link href={accomplishment.link || "#"} key={index} target="_blank" passHref>
-              <div className={`relative group cursor-pointer rounded-xl overflow-hidden shadow-xl timeline-card ${accomplishment.link ? '' : 'pointer-events-none'}`}>
+            <Link href={accomplishment.link} key={index} target="_blank" passHref>
+              <div className={`relative group cursor-pointer rounded-xl overflow-hidden shadow-xl timeline-card`}>
                 {index !== 0 && (
                   <div className="absolute left-1/2 transform -translate-x-1/2 top-0 mt-12 w-0 h-0 border-l-8 border-r-8 border-b-8 border-b-transparent border-l-transparent border-r-transparent border-t-white"></div>
                 )}

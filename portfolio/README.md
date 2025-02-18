@@ -38,5 +38,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 cd portfolio
 npm run build
-move "out" and "_next" folder outside to root dir. move contents outside of "out" folder
+move "out" and ".next" folder outside to root dir. move contents outside of "out" folder
 add .nojekyll
