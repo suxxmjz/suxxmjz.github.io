@@ -61,8 +61,9 @@ export default function Experience() {
     },
   ];
 
-  return (
-    <div className="w-full min-h-screen px-6 py-10" style={{paddingTop:'100px'}}>
+return (
+  <div className="flex flex-col min-h-screen">
+    <main className="flex-grow w-full px-6 py-10" style={{paddingTop:'100px'}}>
       <h1 className="text-4xl font-bold mb-8 text-center">Experience and Projects</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project, index) => (
@@ -85,6 +86,11 @@ export default function Experience() {
           </Link>
         ))}
       </div>
-    </div>
-  );
+    </main>
+
+    <footer className="w-full text-white text-center py-4 text-sm">
+      <p>&copy; 2025 Sukriti Sharma. All Rights Reserved.</p>
+    </footer>
+  </div>
+);
 }

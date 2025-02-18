@@ -58,6 +58,9 @@ export default function Contact() {
           </div>
         </div>
       </div>
+      <footer className="absolute bottom-0 w-full text-white text-center py-4 text-sm">
+        <p>&copy; 2025 Sukriti Sharma. All Rights Reserved.</p>
+      </footer>
     </div>
   );
 }

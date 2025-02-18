@@ -36,7 +36,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 
-cd portfolio
-npm run build
-move "out" and ".next" folder outside to root dir. move contents outside of "out" folder
-add .nojekyll
+- cd portfolio
+- npm run build
+- move "out" and ".next" folder outside to root dir. move contents outside of "out" folder
+- add .nojekyll

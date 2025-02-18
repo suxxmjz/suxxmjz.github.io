@@ -138,8 +138,9 @@ export default function About() {
 
   }, []);
 
-  return (
-    <div className="w-full min-h-screen flex flex-col md:flex-row items-center justify-center text-white px-6 py-10 space-y-10 md:space-y-0 md:space-x-10" style={{ paddingTop: '80px' }}>
+return (
+  <div className="flex flex-col min-h-screen">
+    <main className="flex-grow w-full flex flex-col md:flex-row items-center justify-center text-white px-6 py-10 space-y-10 md:space-y-0 md:space-x-10" style={{ paddingTop: '80px' }}>
       <div className="w-full md:w-1/2 text-center md:text-left md:pl-5">
         <h2 className="text-4xl font-bold mb-4">About Me</h2>
         <p className="text-lg leading-relaxed">
@@ -152,6 +153,12 @@ export default function About() {
       <div className="w-full md:w-1/2 flex justify-center">
         <svg ref={svgRef} className="max-w-full h-auto"></svg>
       </div>
-    </div>
-  );
+    </main>
+    
+    <footer className="w-full text-white text-center py-4 text-sm">
+      <p>&copy; 2025 Sukriti Sharma. All Rights Reserved.</p>
+    </footer>
+  </div>
+);
+
 }
