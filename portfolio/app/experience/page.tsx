@@ -8,7 +8,7 @@ export default function Experience() {
       shortDescription: 'Flask, Python, MS SQL',
       longDescription: 'In collaboration with PETRONAS Canada, designed and implemented an ETL pipeline using Flask to streamline data ingestion, transformation, and integration processes for hundreds of thousand of data points.',
       image: '/images/petronas.jpg',
-      link: 'https://devpost.com/software/wildex?ref_content=my-projects-tab&ref_feature=my_projectsr',
+      link: 'https://www.petronascanada.com/',
     },
       {
       title: "WildDex",
@@ -41,7 +41,7 @@ export default function Experience() {
     {
       title: 'Vibefy',
       shortDescription: 'JavaScript, HTML, CSS, Spotify API',
-      longDescription: 'Chrome extension that provides tailored music recommendations with the click of a button.',
+      longDescription: 'Chrome extension that provides tailored music recommendations with the click of a button. To view, please open in a Chrome browser while signed in.',
       image: '/images/vibefy.png',
       link: 'https://chromewebstore.google.com/detail/vibefy/eiglmapmecbmbhanpifdkglmfgdnbinn',
     },
