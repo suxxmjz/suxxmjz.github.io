@@ -4,6 +4,13 @@ import Link from 'next/link';
 export default function Accomplishments() {
   const accomplishments = [
     {
+      title: "Asset Integrity Data ToolKit",
+      rank: "Capstone Gold Winner",
+      description: "2025 Engineering Design Fair - Projects details can be found on 'Experience' page.",
+      image: '/images/petronas.jpg',
+      link: 'https://schulich.ucalgary.ca/current-students/undergraduate/launching-your-career/engineering-design-fair/2025-winners-engineering-design-fair',
+    },
+    {
       title: "Hunter Hub Solutions Lab",
       rank: "1st Place",
       description: "Pitch competition - designed an event-focused app that connects the immigration population in Calgary.",
@@ -20,7 +27,7 @@ export default function Accomplishments() {
     {
       title: "Hunter Hub Solutions Lab",
       rank: "3rd Place",
-      description: "Pitch competition - developed a B2C model with team members to address the lack of food resiliency in Albertan society",
+      description: "Pitch competition - developed a B2C model with team members to address the lack of food resiliency in Albertan society.",
       image: '/images/hh2021.jpg',
       link: 'https://ucalgary.ca/news/insects-food-students-showcase-innovative-ideas-building-resilient-food-system',
     },
